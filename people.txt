@@ -1,0 +1,8 @@
+create table users(name varchar(20), interests text, pasword varhar(20), isRestricted boolean);
+
+insert into users values('Alcibiades', 'Being cooler than everyone else.', 'Sicily', '0');
+insert into users values('Socrates','Being wiser than everyone else','wisdom.', '0');
+insert into users values('Pericles','Being more powerful than everyone else.','aspasia', '0');
+insert into users values('Alexander','Doing whatever I want.','thegreat', '1');
+insert into users values('Lycurgus','Hard as nails','sparta', '1');
+

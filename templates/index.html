@@ -1,0 +1,50 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>SQL Injection Example</h1>
+				<p>Search for historical characters</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<form role="form" method="post" action="/index">
+					<div class="input-group">
+					    <input type="text" class="form-control" placeholder="Enter name..." id="user" name ="user">
+					    <span class="input-group-btn">
+	        				<button class="btn btn-default" type="submit">Go!</button>
+	        			</span>
+	        		</div>
+	        	</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>Interests: {{interests}}</h1>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-sm-4">
+				<h4>Registered Users</h4>
+				<div class="list-group">
+					<p>Public - Alcibiades</p>
+					<p>Public - Pericles</p>
+					<p>Public - Socrates</p>
+					<p>Private - Lycurgus</p>
+					<p>Private - Alexander</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</html>
