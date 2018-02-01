@@ -1,5 +1,5 @@
 # Challenge Overview/Objective
-The objective of this challenge is to build a website which can be used to A) demonstrate an SQL injection attack, B) demonstrate SQL injection attack mitigation techniques (for example, toggle on/off parameterised queries). Imagine web app being used as an educational tool.
+The objective of this challenge is to build a website which can be used to A) demonstrate an SQL injection attack, B) demonstrate SQL injection attack mitigation techniques (for example, toggle on/off parameterised queries). Imagine the website being used as an educational tool.
 
 The site can be developed using whatever technologies you wish. 
 
