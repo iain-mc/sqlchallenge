@@ -21,7 +21,7 @@ Clone this repository:
 
 Install SQLite:
 
-`sudo apt-get install slite3`
+`sudo apt-get install sqlite3`
 
 If you have Python Flask already installed, just run the script:
 
