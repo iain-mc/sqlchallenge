@@ -11,3 +11,39 @@ Can you extend your site to include demonstrations of other common vulnerabiliti
 * XSS (Cross Site Scripting)
 * CSRF (Cross Site Request Forgery)
 * etc.
+
+#Example Site
+Clone this repository.
+
+`git clone http://github.com/iain-mc/sqlchallenge`
+
+`cd sqlchallenge`
+
+Install SQLite
+
+`sudo apt-get install slite3`
+
+If you have Python Flask already installed, just run the script:
+
+`python example.py`
+
+If you do not have Python Flask installed, either install it using your preferred method or do the following: 
+
+Install Python Virtualenv
+
+`sudo apt-get install python virtual-env`
+
+Create and and enter the virutalenv
+
+`virtualenv venv`
+
+`. venv/bin/activate`
+
+Install Python Flask:
+
+`pip install Flask`
+
+Run the script:
+
+`python example.py`
+
