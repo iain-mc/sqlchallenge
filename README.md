@@ -13,13 +13,13 @@ Can you extend your site to include demonstrations of other common vulnerabiliti
 * etc.
 
 # Example Site
-Clone this repository.
+Clone this repository:
 
 `git clone http://github.com/iain-mc/sqlchallenge`
 
 `cd sqlchallenge`
 
-Install SQLite
+Install SQLite:
 
 `sudo apt-get install slite3`
 
@@ -29,11 +29,11 @@ If you have Python Flask already installed, just run the script:
 
 If you do not have Python Flask installed, either install it using your preferred method or do the following: 
 
-Install Python Virtualenv
+Install Python Virtualenv:
 
 `sudo apt-get install python virtual-env`
 
-Create and and enter the virutalenv
+Create and and enter the virutalenv:
 
 `virtualenv venv`
 
