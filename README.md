@@ -12,7 +12,7 @@ Can you extend your site to include demonstrations of other common vulnerabiliti
 * CSRF (Cross Site Request Forgery)
 * etc.
 
-#Example Site
+# Example Site
 Clone this repository.
 
 `git clone http://github.com/iain-mc/sqlchallenge`
