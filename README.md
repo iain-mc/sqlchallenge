@@ -47,3 +47,6 @@ Run the script:
 
 `python example.py`
 
+Open a browser and navigate to:
+
+`http://localhost:5000/index`
