@@ -31,7 +31,7 @@ If you do not have Python Flask installed, either install it using your preferre
 
 Install Python Virtualenv:
 
-`sudo apt-get install python virtual-env`
+`sudo apt-get install python-virtualenv`
 
 Create and and enter the virutalenv:
 
